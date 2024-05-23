@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x = np.random.normal(170, 10, 250)
+plt.hist(x,color='green')
+plt.title("movers")
+plt.xlabel("X-Axis")
+plt.ylabel("Y-Axis")
+
+plt.show()
